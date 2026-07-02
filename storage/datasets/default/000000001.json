@@ -1,0 +1,9 @@
+{
+	"query": "What is Apify used for?",
+	"url": "https://www.perplexity.ai/search?q=What%20is%20Apify%20used%20for%3F",
+	"scrapedAt": "2026-07-02T05:15:56.131Z",
+	"brandMentioned": false,
+	"citationsCount": 0,
+	"citations": [],
+	"answerText": "Apify is a web scraping and automation platform. It helps you collect data from the internet, run automated workflows, and turn web content into structured data or usable services. Here’s a concise overview:\n\nWeb scraping and data extraction: Create crawlers (called Actors) to navigate websites, extract information (like product prices, job postings, reviews), and store it in formats such as JSON or CSV.\n\nAutomation workflows: Schedule and run complex sequences of tasks—e.g., monitor price changes, track competitors, or gather lead data—without manual effort.\n\nData processing and enrichment: Clean, transform, and enrich scraped data (e.g., deduplicate results, normalize fields, or enrich with APIs).\n\nHeadless browser support: Use headless Chrome/ Puppeteer or Playwright to render dynamic pages and interact with JavaScript-driven sites.\n\nCloud hosting and orchestration: Run Actors in the cloud, scale to large crawls, and manage runtimes, logs, and error handling.\n\nIntegrations and expor..."
+}

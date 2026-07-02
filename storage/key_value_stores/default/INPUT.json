@@ -1,0 +1,9 @@
+{
+    "queries": [
+        "What is Apify used for?"
+    ],
+    "targetDomain": "apify.com",
+    "proxyConfiguration": {
+        "useApifyProxy": false
+    }
+}

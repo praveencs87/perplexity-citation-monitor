@@ -1,0 +1,33 @@
+{
+    "title": "Perplexity Citation Monitor Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "queries": {
+            "title": "Search Queries",
+            "type": "array",
+            "description": "List of search queries to monitor on Perplexity.",
+            "editor": "stringList",
+            "prefill": [
+                "What is the best web scraping tool?",
+                "Latest updates in Playwright testing"
+            ]
+        },
+        "targetDomain": {
+            "title": "Target Domain (Optional)",
+            "type": "string",
+            "description": "Your brand's domain (e.g. apify.com) to track if it appears in the citations.",
+            "editor": "textfield"
+        },
+        "proxyConfiguration": {
+            "title": "Proxy configuration",
+            "type": "object",
+            "description": "Select proxies to be used by your crawler. Residential proxies are recommended for Perplexity.",
+            "prefill": {
+                "useApifyProxy": true
+            },
+            "editor": "proxy"
+        }
+    },
+    "required": ["queries"]
+}

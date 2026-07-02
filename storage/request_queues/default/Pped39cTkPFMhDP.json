@@ -1,0 +1,9 @@
+{
+	"id": "Pped39cTkPFMhDP",
+	"json": "{\"id\":\"Pped39cTkPFMhDP\",\"url\":\"https://www.perplexity.ai/search?q=What%20is%20Apify%20used%20for%3F\",\"loadedUrl\":\"https://www.perplexity.ai/search/new?q=What%20is%20Apify%20used%20for%3F\",\"uniqueKey\":\"https://www.perplexity.ai/search?q=What+is+Apify+used+for%3F\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"query\":\"What is Apify used for?\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-07-02T05:15:56.134Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.perplexity.ai/search?q=What+is+Apify+used+for%3F",
+	"url": "https://www.perplexity.ai/search?q=What%20is%20Apify%20used%20for%3F"
+}
