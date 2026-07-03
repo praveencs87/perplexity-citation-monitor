@@ -12,13 +12,18 @@
     "pricingEvents": [
         {
             "eventName": "apify-actor-start",
-            "pricePerEvent": 0.10,
+            "pricePerEvent": 0.1,
             "description": "Base fee for starting the crawler"
         },
         {
             "eventName": "query-monitored",
             "pricePerEvent": 0.005,
             "description": "Charged per query successfully monitored ($5 per 1k)"
+        },
+        {
+            "eventName": "lead-extracted",
+            "pricePerEvent": 0.005,
+            "description": "Charged per lead extracted"
         }
     ],
     "isPublic": true,
@@ -32,6 +37,6 @@
     "defaultRunOptions": {
         "build": "latest",
         "timeoutSecs": 1800,
-        "memoryMbytes": 1024
+        "memoryMbytes": 4096
     }
 }

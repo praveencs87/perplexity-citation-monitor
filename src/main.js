@@ -1,3 +1,4 @@
+import { armKillSwitch, disarmKillSwitch } from './utils/timeoutManager.js';
 import { Actor } from 'apify';
 import { PlaywrightCrawler, log } from 'crawlee';
 
@@ -110,7 +111,9 @@ try {
     }));
     
     await crawler.addRequests(initialRequests);
+    armKillSwitch(crawler);
     await crawler.run();
+    disarmKillSwitch();
 
     log.info(`🎉 Successfully monitored ${extractedCount} queries!`);
 } catch (error) {
